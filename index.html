@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corentin Grenier - Data Engineer en formation · Portfolio</title>
+<meta name="description" content="Portfolio de Corentin Grenier, futur Data Engineer en reconversion (formation Bac+5 Data & IA, DIGINAMIC). Ex-Technical Sound Designer sur Star Citizen. Disponible pour un stage à partir de décembre 2026, à Bordeaux ou à distance.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Corentin Grenier - Data Engineer en formation">
+<meta property="og:description" content="De la conception sonore de Star Citizen à l'ingénierie de la donnée. Portfolio et projets.">
+</head>
+<body>
+
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <input type="checkbox" id="nav-toggle" class="visually-hidden-input">
+  <div class="container header-inner">
+    <a class="brand" href="#profil" aria-label="Corentin Grenier - retour en haut de page">
+      <svg class="signal-mark" viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+        <defs>
+          <linearGradient id="brandGrad" x1="0" y1="0" x2="44" y2="40" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--accent)"/>
+            <stop offset="1" stop-color="var(--accent-2)"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#brandGrad)" stroke-width="3.6" stroke-linecap="round" fill="none">
+          <line x1="4" y1="24" x2="4" y2="16"/>
+          <line x1="13" y1="30" x2="13" y2="10"/>
+          <line x1="22" y1="34" x2="22" y2="6"/>
+          <line x1="31" y1="28" x2="31" y2="12"/>
+          <line x1="40" y1="22" x2="40" y2="18"/>
+        </g>
+      </svg>
+      <span class="brand-name">Corentin&nbsp;Grenier</span>
+    </a>
+
+    <label class="nav-toggle-btn" for="nav-toggle" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <fieldset class="theme-switch">
+        <legend class="visually-hidden">Thème d’affichage</legend>
+        <input type="radio" name="theme" id="theme-auto" checked>
+        <label for="theme-auto">Auto</label>
+        <input type="radio" name="theme" id="theme-light">
+        <label for="theme-light">Clair</label>
+        <input type="radio" name="theme" id="theme-dark">
+        <label for="theme-dark">Sombre</label>
+      </fieldset>
+
+      <a class="btn btn-ghost nav-cv" href="Corentin_Grenier_CV_Engineering.pdf" download>CV</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <!-- ============ HERO / PROFIL ============ -->
+  <section id="profil" class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Data Engineer</p>
+        <h1 id="hero-title">Corentin Grenier</h1>
+        <p class="hero-tagline">Du design sonore de Star&nbsp;Citizen à l’ingénierie de la donnée.</p>
+        <p class="hero-lead">
+          Après quatre ans passés à concevoir les systèmes audio de jeux vidéo à grande échelle,
+          je me forme aujourd’hui au métier de Data&nbsp;Engineer. Rigueur, résolution de problèmes
+          techniques et exigence de qualité&nbsp;: les mêmes réflexes, appliqués à la donnée.
+        </p>
+
+        <ul class="status-chips">
+          <li class="status-chip">Formation Bac+5 Data &amp; IA - DIGINAMIC</li>
+          <li class="status-chip">Bac+3 Informatique mention International - UBO</li>
+          <li class="status-chip">Stage à partir de déc. 2026</li>
+          <li class="status-chip">Bordeaux · France · Remote</li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="Corentin_Grenier_CV_Engineering.pdf" download>Télécharger mon CV</a>
+          <a class="btn btn-ghost" href="mailto:corentingrenier@free.fr">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <img
+          src="assets/img/portrait.webp"
+          alt="Portrait de Corentin Grenier"
+          width="480" height="480"
+          decoding="async"
+          fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" role="presentation">
+    <svg viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="divGrad1" x1="0" y1="0" x2="44" y2="40" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="var(--accent)"/><stop offset="1" stop-color="var(--accent-2)"/>
+        </linearGradient>
+      </defs>
+      <g stroke="url(#divGrad1)" stroke-width="3" stroke-linecap="round" fill="none">
+        <line x1="4" y1="24" x2="4" y2="16"/><line x1="13" y1="30" x2="13" y2="10"/>
+        <line x1="22" y1="34" x2="22" y2="6"/><line x1="31" y1="28" x2="31" y2="12"/>
+        <line x1="40" y1="22" x2="40" y2="18"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ============ PARCOURS ============ -->
+  <section id="parcours" class="section" aria-labelledby="parcours-title">
+    <div class="container">
+      <p class="eyebrow">Reconversion</p>
+      <h2 id="parcours-title">Parcours</h2>
+      <p class="section-lead">
+        Initialement formé dans l'informatique, j’ai construit ma carrière dans l’audio du jeu vidéo&nbsp;: création
+        sonore, puis technical sound design sur des projets à très grande échelle. Ce parcours m’a appris
+        à faire allier créativité et rigueur technique pour concevoir des systèmes robustes et
+        documentés, qui tiennent dans la durée. Je mets aujourd’hui cette expérience au service de la donnée.
+      </p>
+
+      <ul class="cred-grid">
+        <li class="cred-card">
+          <h3>Rigueur &amp; qualité</h3>
+          <p>Mise en place de bonnes pratiques et de workflows robustes sur des projets audio critiques
+          (Star&nbsp;Citizen), directement transposable à la qualité des pipelines de données.</p>
+        </li>
+        <li class="cred-card">
+          <h3>Résolution de problèmes</h3>
+          <p>Diagnostic et résolution de bugs complexes dans des systèmes techniques interconnectés.</p>
+        </li>
+        <li class="cred-card">
+          <h3>Collaboration</h3>
+          <p>Travail avec différents départements pour assurer la cohérence de systèmes complexes.</p>
+        </li>
+        <li class="cred-card">
+          <h3>Curiosité &amp; adaptabilité</h3>
+          <p>Reconversion active vers la data après une carrière construite dans un autre secteur.</p>
+        </li>
+      </ul>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2026</span><span>présent</span></div>
+          <div class="timeline-content">
+            <h3>Titre RNCP Niveau 7 (Bac+5) - Data &amp; Intelligence Artificielle</h3>
+            <p class="timeline-org">DIGINAMIC</p>
+            <p>Formation structurée en six blocs : stratégie des systèmes d’information, pilotage de
+            projets, développement Python, modélisation de datawarehouse, infrastructures big data et
+            intelligence artificielle.
+            <br>Mise en pratique à travers cinq projets&nbsp;: une application
+            Python, une base Big Data sous MongoDB, une infrastructure big data et son analyse, un
+            projet de data science / IA, et un audit de sécurité d’infrastructure.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2024</span><span>présent</span></div>
+          <div class="timeline-content">
+            <h3>Sound &amp; Technical Sound Designer - Freelance</h3>
+            <p class="timeline-org">Micro-entreprise · Bordeaux</p>
+            <p>Design sonore et implémentation de systèmes audio interactifs, conseil et accompagnement technique sur les technologies audio pour le jeu vidéo et
+            d’autres médias, gestion
+            administrative, comptable et financière de l’activité.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2022</span><span>2024</span></div>
+          <div class="timeline-content">
+            <h3>Technical Sound Designer</h3>
+            <p class="timeline-org">Cloud Imperium Games - Star&nbsp;Citizen / Squadron&nbsp;42 · Manchester, UK</p>
+            <p>Responsable de la technologie audio des véhicules&nbsp;: conception et maintenance des
+            systèmes, collaboration avec les programmeurs audio pour étendre les possibilités offertes
+            par le moteur de jeu, gestion des branches liées à l’audio, mise en place de bonnes
+            pratiques qualité et optimisation sur le projet Wwise, documentation technique et animation
+            d’ateliers internes.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2019</span><span>2020</span></div>
+          <div class="timeline-content">
+            <h3>Sound Designer - Stage</h3>
+            <p class="timeline-org">Novelab · Toulouse</p>
+            <p>Sound design pour une fiction audio binaurale (Amazon Audible), une expérience VR
+            narrative et une bande dessinée interactive en ligne.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2017</span><span>2019</span></div>
+          <div class="timeline-content">
+            <h3>Master - Effets sonores et visuels numériques, spécialité Audio</h3>
+            <p class="timeline-org">Université Polytechnique Hauts-de-France · Valenciennes</p>
+            <p>Sound design pour le jeu vidéo, mixage et montage son pour le film, enregistrement et
+            composition musicale, production / VFX / modélisation 3D.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2017</span></div>
+          <div class="timeline-content">
+            <h3>Échange Erasmus</h3>
+            <p class="timeline-org">Oulu University of Applied Sciences · Oulu, Finlande</p>
+            <p>Cybersécurité, management de projet, développement mobile, compétences interculturelles.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date"><span>2014</span><span>2017</span></div>
+          <div class="timeline-content">
+            <h3>Licence Informatique, parcours international</h3>
+            <p class="timeline-org">Université de Bretagne Occidentale (UBO)</p>
+            <p>C, Python, Java, SQL, JavaScript, PHP, Smalltalk, OCaml, architecture système, réseau, Bash.</p>
+          </div>
+        </li>
+      </ol>
+
+      <p class="timeline-footnote">
+        Parcours antérieur&nbsp;: classe préparatoire intégrée à l’ENIB, Brest (2014) ·
+        Baccalauréat scientifique, Lycée de l’Harteloire, Brest (2013).
+      </p>
+    </div>
+  </section>
+
+  <div class="divider" role="presentation">
+    <svg viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="var(--accent)" stroke-opacity="0.7" stroke-width="3" stroke-linecap="round" fill="none">
+        <line x1="4" y1="24" x2="4" y2="16"/><line x1="13" y1="30" x2="13" y2="10"/>
+        <line x1="22" y1="34" x2="22" y2="6"/><line x1="31" y1="28" x2="31" y2="12"/>
+        <line x1="40" y1="22" x2="40" y2="18"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ============ COMPETENCES ============ -->
+  <section id="competences" class="section section-alt" aria-labelledby="competences-title">
+    <div class="container">
+      <p class="eyebrow">Boîte à outils</p>
+      <h2 id="competences-title">Compétences</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Langages &amp; données</h3>
+          <ul class="tag-list">
+            <li class="tag">Python</li>
+            <li class="tag">SQL / MySQL</li>
+            <li class="tag">C#</li>
+            <li class="tag">Java</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Big Data &amp; IA</h3>
+          <ul class="tag-list">
+            <li class="tag">MongoDB</li>
+            <li class="tag">Kafka</li>
+            <li class="tag">Hadoop</li>
+            <li class="tag">TensorFlow</li>
+            <li class="tag">Microsoft Azure</li>
+            <li class="tag">Databricks</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>BI, gestion &amp; outils</h3>
+          <ul class="tag-list">
+            <li class="tag">Power BI</li>
+            <li class="tag">Talend</li>
+            <li class="tag">Git / GitHub</li>
+            <li class="tag">Jira</li>
+            <li class="tag">Perforce</li>
+            <li class="tag">MS Office</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Langue</h3>
+          <ul class="tag-list">
+            <li class="tag">Anglais - C2</li>
+          </ul>
+          <p class="skill-note">3 ans de vie et de travail en Angleterre.</p>
+        </div>
+        <div class="skill-group">
+          <h3>Savoir-être</h3>
+          <ul class="tag-list">
+            <li class="tag">Travail en équipe</li>
+            <li class="tag">Résolution de problèmes</li>
+            <li class="tag">Adaptabilité</li>
+            <li class="tag">Curiosité</li>
+            <li class="tag">Communication</li>
+            <li class="tag">Créativité</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" role="presentation">
+    <svg viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="var(--accent-2)" stroke-width="3" stroke-linecap="round" fill="none">
+        <line x1="4" y1="24" x2="4" y2="16"/><line x1="13" y1="30" x2="13" y2="10"/>
+        <line x1="22" y1="34" x2="22" y2="6"/><line x1="31" y1="28" x2="31" y2="12"/>
+        <line x1="40" y1="22" x2="40" y2="18"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ============ PROJETS ============ -->
+  <section id="projets" class="section" aria-labelledby="projets-title">
+    <div class="container">
+      <p class="eyebrow">Mise en pratique</p>
+      <h2 id="projets-title">Projets</h2>
+      <p class="section-lead">
+        Des projets menés pour mettre en application les compétences acquises en formation et auto-formation.
+        Cette page s’enrichira au fil des prochains projets.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- ---- PROJET : Spotify Azure Pipeline ---- -->
+        <article class="project-card" id="projet-spotify">
+          <div class="project-head">
+            <p class="project-meta">Projet personnel · Data Engineering sur Azure + Databricks</p>
+            <h3>Pipeline de données Spotify - Azure End-to-End</h3>
+            <p>
+              Pipeline d’ingestion et de transformation de données construit de bout
+              en bout à partir du projet  d’Ansh Lamba sur YouTube, « Spotify End-To-End Azure Data Engineering Project »,
+              puis prolongé avec un chargement incrémental piloté par CDC et un système d’alertes par mail.
+            </p>
+          </div>
+
+          <ul class="stack-badges">
+            <li>Azure Data Factory</li>
+            <li>Azure SQL Database</li>
+            <li>Azure Data Lake Storage</li>
+            <li>Azure Databricks</li>
+            <li>Azure Logic Apps</li>
+          </ul>
+
+          <div class="project-body">
+            <h4>Architecture</h4>
+            <p>
+              Une base Azure SQL Database sert de source. Azure Data Factory orchestre l’ingestion vers
+              un Data Lake avant transformation dans Databricks. On peut retrouver dans ce projet&nbsp;:
+            </p>
+            <ul class="feature-list">
+              <li>
+                Un chargement incrémental table par table (paramètre <code>loop_input</code>, boucle
+                <code>ForEach</code>) piloté par une table de contrôle de type CDC (<code>last_cdc</code> /
+                <code>max_cdc</code>), pour ne prendre en compte que les données modifiées&nbsp;;
+              </li>
+              <li>
+                Une purge automatique des fichiers vides lorsqu’aucune donnée nouvelle n’est détectée
+                (<code>delete_empty_file</code>)&nbsp;;
+              </li>
+              <li>
+                Un système d’alertes par e-mail (Azure Logic Apps + connecteur Outlook) déclenché en
+                fin de pipeline pour suivre l’exécution.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <figure>
+              <a href="assets/img/spotify-01-resources.webp" target="_blank" rel="noopener">
+                <img src="assets/img/spotify-01-resources.webp" alt="Groupe de ressources Azure du projet : base et serveur SQL, Data Factory, Logic App, connexion Outlook et compte de stockage, région France Central." width="1200" height="336" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Ressources Azure déployées (région France Central).</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/spotify-02-pipeline-overview.webp" target="_blank" rel="noopener">
+                <img src="assets/img/spotify-02-pipeline-overview.webp" alt="Pipeline Data Factory incremental_loop : boucle ForEach sur les tables sources, puis activité Web déclenchant les alertes." width="1200" height="498" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Pipeline <code>incremental_loop</code>&nbsp;: boucle sur les tables, puis alertes.</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/spotify-03-foreach-detail.webp" target="_blank" rel="noopener">
+                <img src="assets/img/spotify-03-foreach-detail.webp" alt="Détail de la boucle ForEach : lookup du dernier CDC, copie vers le Data Lake, puis condition selon la présence de nouvelles données." width="1200" height="452" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Lookup du dernier CDC, copie incrémentale, puis condition.</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/spotify-04-condition-detail.webp" target="_blank" rel="noopener">
+                <img src="assets/img/spotify-04-condition-detail.webp" alt="Branche vraie de la condition : calcul du nouveau CDC maximum puis mise à jour de la table de contrôle." width="1200" height="414" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Calcul du nouveau CDC et mise à jour de la table de contrôle.</figcaption>
+            </figure>
+          </div>
+
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/corentingreniergit/azureproject" target="_blank" rel="noopener">
+              Voir le code sur GitHub
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 13 L13 3 M6 3 H13 V10" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ---- Emplacement pour projet futur ---- -->
+        <article class="project-card project-card-placeholder" aria-hidden="true">
+          <p class="project-meta">Prochain projet</p>
+          <p class="placeholder-text">Bientôt disponible - projet d'ingestion et de transformation des données des taxis de New York, puis présentation dans PowerBI.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" role="presentation">
+    <svg viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="var(--accent)" stroke-width="3" stroke-linecap="round" fill="none">
+        <line x1="4" y1="24" x2="4" y2="16"/><line x1="13" y1="30" x2="13" y2="10"/>
+        <line x1="22" y1="34" x2="22" y2="6"/><line x1="31" y1="28" x2="31" y2="12"/>
+        <line x1="40" y1="22" x2="40" y2="18"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-alt" aria-labelledby="contact-title">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">Disponibilité</p>
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-lead">
+          Je recherche un stage à partir de décembre 2026, à Bordeaux, dans ses environs,
+          ou à distance.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:corentingrenier@free.fr">Écrire un e-mail</a>
+          <a class="btn btn-ghost" href="Corentin_Grenier_CV_Engineering.pdf" download>Télécharger mon CV</a>
+        </div>
+      </div>
+
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:corentingrenier@free.fr">corentingrenier@free.fr</a>
+        </li>
+        <li>
+          <span class="contact-label">Téléphone</span>
+          <a href="tel:+33777392652">07 77 39 26 52</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/corentin-grenier-296a75172" target="_blank" rel="noopener">corentin-grenier-296a75172</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/corentingreniergit" target="_blank" rel="noopener">corentingreniergit</a>
+        </li>
+        <li>
+          <span class="contact-label">Localisation</span>
+          <span>Bordeaux, France</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Corentin Grenier.</p>
+  </div>
+</footer>
+
+</body>
+</html>
