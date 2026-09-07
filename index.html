@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Corentin Grenier - Data Engineer en formation · Portfolio</title>
-<meta name="description" content="Portfolio de Corentin Grenier, futur Data Engineer en reconversion (formation Bac+5 Data & IA, DIGINAMIC). Ex-Technical Sound Designer sur Star Citizen. Disponible pour un stage à partir de décembre 2026, à Bordeaux ou à distance.">
+<meta name="description" content="Portfolio de Corentin Grenier, futur Data Engineer en reconversion (formation Bac+5 Data & IA, DIGINAMIC). Ex-Technical Sound Designer sur Star Citizen. Disponible pour un stage de 3 mois à partir de décembre 2026, à Bordeaux ou à distance.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
@@ -85,10 +85,11 @@
         </p>
 
         <ul class="status-chips">
+          <li class="status-chip">Stage de 3 mois à partir de déc. 2026</li>
           <li class="status-chip">Formation Bac+5 Data &amp; IA - DIGINAMIC</li>
+          <li class="status-chip">Bac+5 Audiovisuel spécialité son - UPHF</li>
           <li class="status-chip">Bac+3 Informatique mention International - UBO</li>
-          <li class="status-chip">Stage à partir de déc. 2026</li>
-          <li class="status-chip">Bordeaux · France · Remote</li>
+          <li class="status-chip">Bordeaux / France / Remote</li>
         </ul>
 
         <div class="hero-actions">
@@ -161,12 +162,9 @@
           <div class="timeline-content">
             <h3>Titre RNCP Niveau 7 (Bac+5) - Data &amp; Intelligence Artificielle</h3>
             <p class="timeline-org">DIGINAMIC</p>
-            <p>Formation structurée en six blocs : stratégie des systèmes d’information, pilotage de
-            projets, développement Python, modélisation de datawarehouse, infrastructures big data et
-            intelligence artificielle.
-            <br>Mise en pratique à travers cinq projets&nbsp;: une application
-            Python, une base Big Data sous MongoDB, une infrastructure big data et son analyse, un
-            projet de data science / IA, et un audit de sécurité d’infrastructure.</p>
+            <p>Formation structurée en quatre blocs : stratégie des systèmes d’information, pilotage de
+            projets, conception et développement d'applications, conception et implémentation de modèles Big Data et IA.
+            <br>Mise en pratique à travers différents projets dont un projet fil rouge de refonte du SI d'une société de chasse immobilière en expansion.</p>
           </div>
         </li>
         <li class="timeline-item">
@@ -254,35 +252,36 @@
         <div class="skill-group">
           <h3>Langages &amp; données</h3>
           <ul class="tag-list">
-            <li class="tag">Python</li>
-            <li class="tag">SQL / MySQL</li>
-            <li class="tag">C#</li>
-            <li class="tag">Java</li>
+            <li class="tag">Python - Intermédiaire</li>
+            <li class="tag">SQL / MySQL - Intermédiaire</li>
+            <li class="tag">Java - Notions</li>
+            <li class="tag">C# - Notions</li>
+            <li class="tag">Bash - Notions</li>
           </ul>
         </div>
         <div class="skill-group">
           <h3>Big Data &amp; IA</h3>
           <ul class="tag-list">
-            <li class="tag">MongoDB</li>
-            <li class="tag">Kafka</li>
-            <li class="tag">Hadoop</li>
-            <li class="tag">TensorFlow</li>
-            <li class="tag">Microsoft Azure</li>
-            <li class="tag">Databricks</li>
-            <li class="tag">Airflow</li>
-            <li class="tag">ElasticSearch</li>
+            <li class="tag">MongoDB - Notions</li>
+            <li class="tag">Kafka - Notions</li>
+            <li class="tag">Hadoop - Notions</li>
+            <li class="tag">TensorFlow - Notions</li>
+            <li class="tag">Microsoft vAzure - Notions</li>
+            <li class="tag">Databricks - Notions</li>
+            <li class="tag">Airflow - Intermédiaire</li>
+            <li class="tag">ElasticSearch - Notions</li>
           </ul>
         </div>
         <div class="skill-group">
           <h3>BI, gestion &amp; outils</h3>
           <ul class="tag-list">
-            <li class="tag">Power BI</li>
-            <li class="tag">Talend</li>
-            <li class="tag">Git / GitHub</li>
-            <li class="tag">Docker</li>
-            <li class="tag">Jira</li>
-            <li class="tag">Perforce</li>
-            <li class="tag">MS Office</li>
+            <li class="tag">Power BI - Intermédiaire</li>
+            <li class="tag">Talend - Notions</li>
+            <li class="tag">Git / GitHub - Intermédiaire</li>
+            <li class="tag">Docker - Intermédiaire</li>
+            <li class="tag">Jira - Intermédiaire</li>
+            <li class="tag">Perforce - Intermédiaire</li>
+            <li class="tag">MS Office - Intermédiaire</li>
           </ul>
         </div>
         <div class="skill-group">
@@ -290,7 +289,7 @@
           <ul class="tag-list">
             <li class="tag">Anglais - C2</li>
           </ul>
-          <p class="skill-note">3 ans de vie et de travail en Angleterre.</p>
+          <p class="skill-note">3 ans de vie et de travail en Angleterre, 6 mois d’échange Erasmus en Finlande.</p>
         </div>
         <div class="skill-group">
           <h3>Savoir-être</h3>
@@ -359,15 +358,15 @@
               <li>
                 Un chargement incrémental table par table (paramètre <code>loop_input</code>, boucle
                 <code>ForEach</code>) piloté par une table de contrôle de type CDC (<code>last_cdc</code> /
-                <code>max_cdc</code>), pour ne prendre en compte que les données modifiées&nbsp;;
+                <code>max_cdc</code>), pour ne prendre en compte que les données modifiées&nbsp;
               </li>
               <li>
                 Une purge automatique des fichiers vides lorsqu’aucune donnée nouvelle n’est détectée
-                (<code>delete_empty_file</code>)&nbsp;;
+                (<code>delete_empty_file</code>)&nbsp;
               </li>
               <li>
                 Un système d’alertes par e-mail (Azure Logic Apps + connecteur Outlook) déclenché en
-                fin de pipeline pour suivre l’exécution.
+                fin de pipeline pour suivre l’exécution
               </li>
             </ul>
           </div>
@@ -407,10 +406,104 @@
           </div>
         </article>
 
+        <!-- ---- PROJET : Sherlock Homes - Chasse immobilière (fil rouge Diginamic) ---- -->
+        <article class="project-card" id="projet-sherlock-homes">
+          <div class="project-head">
+            <p class="project-meta">Projet fil rouge · Formation Diginamic</p>
+            <h3>Sherlock Homes - Refonte du SI d'une société de chasse immobilière</h3>
+            <h3>EN CONSTRUCTION</h3>
+            <p>
+              Reprise d'un système d'information existant pour une société fictive de chasse
+              immobilière&nbsp;: audit de l'existant, refonte du modèle de données, industrialisation
+              des flux de données et conception du parcours utilisateur futur intégrant l'IA.
+            </p>
+          </div>
+
+          <ul class="stack-badges">
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Airflow</li>
+            <li>Python</li>
+            <li>MinIO</li>
+            <li>MySQL</li>
+            <li>APIs REST</li>
+          </ul>
+
+          <div class="project-body">
+            <h4>Architecture</h4>
+            <p>
+              Le projet part d'un extrait de base MySQL existant à auditer,
+              puis à migrer vers un modèle de données corrigé. L'ensemble des traitements est
+              conteneurisé avec Docker et orchestré via Airflow, avec MinIO comme couche de
+              stockage objet Bronze et Gold pour les données brutes et les agrégations, et MariaDB comme base de donnée métier/couche Silver. On peut retrouver dans
+              ce projet&nbsp;:
+            </p>
+            <ul class="feature-list">
+              <li>
+                Un audit de l'existant (schéma, anomalies, incohérences métier) formalisé en
+                matrices de décision et journal de décisions&nbsp;
+              </li>
+              <li>
+                Une refonte du modèle de données (MCD complet, cardinalités) et des scripts SQL
+                de migration à partir des fixtures fournies&nbsp;
+              </li>
+              <li>
+                Des pipelines Airflow orchestrant l'ingestion et la transformation des données,
+                avec MinIO en stockage objet&nbsp;
+              </li>
+              <li>
+                Une API REST pour exposer les données du futur parcours utilisateur&nbsp;
+              </li>
+              <li>
+                La conception d'un modèle de matching bien/demande en vue
+                d'une intégration IA, avec une note dédiée à la souveraineté et à la sécurité
+                des données exposées
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <!-- Captures à venir : décommenter et compléter au fur et à mesure
+            <figure>
+              <a href="assets/img/sherlock-01-XXX.webp" target="_blank" rel="noopener">
+                <img src="assets/img/sherlock-01-XXX.webp" alt="Description de la capture." width="1200" height="600" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Légende de la capture.</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/sherlock-02-XXX.webp" target="_blank" rel="noopener">
+                <img src="assets/img/sherlock-02-XXX.webp" alt="Description de la capture." width="1200" height="600" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Légende de la capture.</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/sherlock-03-XXX.webp" target="_blank" rel="noopener">
+                <img src="assets/img/sherlock-03-XXX.webp" alt="Description de la capture." width="1200" height="600" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Légende de la capture.</figcaption>
+            </figure>
+            <figure>
+              <a href="assets/img/sherlock-04-XXX.webp" target="_blank" rel="noopener">
+                <img src="assets/img/sherlock-04-XXX.webp" alt="Description de la capture." width="1200" height="600" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Légende de la capture.</figcaption>
+            </figure>
+            -->
+          </div>
+
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/Sherlock-Homes-Immo/sherlock-homes" target="_blank" rel="noopener">
+              Voir le code sur GitHub (dépôt privé)
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 13 L13 3 M6 3 H13 V10" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+        <!-- ---- PROJET : Sherlock Homes - Chasse immobilière (fil rouge Diginamic) ---- -->
+
         <!-- ---- Emplacement pour projet futur ---- -->
         <article class="project-card project-card-placeholder" aria-hidden="true">
           <p class="project-meta">Prochain projet</p>
-          <p class="placeholder-text">Bientôt disponible - projet d'ingestion et de transformation des données des taxis de New York, puis présentation dans PowerBI.</p>
+          <p class="placeholder-text">Bientôt disponible.</p>
         </article>
 
       </div>
@@ -434,7 +527,7 @@
         <p class="eyebrow">Disponibilité</p>
         <h2 id="contact-title">Contact</h2>
         <p class="section-lead">
-          Je recherche un stage à partir de décembre 2026, à Bordeaux, dans ses environs,
+          Je recherche un stage de 3 mois en Data Engineering à partir de décembre 2026, à Bordeaux, dans ses environs,
           ou à distance.
         </p>
         <div class="hero-actions">
@@ -472,7 +565,7 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>© 2026 Corentin Grenier.</p>
+    <p>© 2026 Corentin Grenier</p>
   </div>
 </footer>
 
